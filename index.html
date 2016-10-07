@@ -1,1 +1,21 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+</head>
+<body>
+   <form action="javascript:myFunction(); return false;">
+  Ваша электронная почта:<br>
+  <input type="text" name="Email" value=""><br>
+  <input type="submit" id="capture" value="Сфотографировать">
+</form> 
+  <div class="booth">
+   <video id="video" width="400" height="300" autoplay></video>
+   <canvas id="canvas" width="400" height="300"></canvas>
+   <img src="" id="photo" alt="Ваша фотография">
+  </div>
+  <script src="photo.js"></script>
+</body>
+</html>
