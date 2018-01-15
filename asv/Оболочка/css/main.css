@@ -1,0 +1,32 @@
+.lk{
+	width: 90%;
+	text-align: left;
+	padding-left: 15px;
+	font-family: Tahoma, Verdana, sans-serif;
+    color: #000000;
+    font-size: 12pt;
+}
+.lk p {
+	width: 90%; 	
+	margin: 0px;
+	padding-top: 3px;
+}
+.foot{
+	display: block;
+	width: 100%;
+	height: 25px;
+	border: 2px;
+	border-color: rgb(49, 106, 197);
+	font-family: Verdana, sans-serif;
+	font-style: normal;
+	font-size: 90%;
+	background: url(../images/background.jpg);
+	margin-top: 15px;
+}	
+.lb{
+	padding-top: 5px;
+	text-align: center;
+	color: #ffffff;
+	margin: 0px;
+	font-family: Tahoma, Verdana, sans-serif;
+}
